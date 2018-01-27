@@ -1,37 +1,26 @@
-# Django Starter Project
+# CMU Course Analytics Project
 
-This is the starter project for our Django related projects. It's been pre-configured for deployment on [Heroku](http://heroku.com/).
+This is the the web analytics group project built by Guanqi Yu, Yunlu Huang, Dan Hou for course 95880-A3-SP 2018.
+The main page we will use for scrapy and analytics is the [CMU Course Schedule Website](https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/search)
 
-## Example Deliverables
+## Deliverable 1 - Project Proposal
 
-We'll use GitHub functionality and Heroku to complete the project. Deliverables for a project might look like.  **Note: See your Course Syllabus and Assignments for course specific details**
+* **Who are your customers?**
+CMU students and staffs.
+* **What are their needs?**
+Students need an easy to use / more interact friendly web interface for them to make simple query for CMU course and needs an insightful course analytics
+* **What specific problem(s) will you solve?**
+- What courses (in Heinz or SCS) are currently are ongoing right now?
+- What is the beginning time and location of specific course
+- Which professor/staff teach most of the courses?
+- What are the most popular course in this semester?
+* **Why do these problems need solved?**
+1. Because for simple query, the process of logging into **SIO** and click **Registration** and search for course number/name is too complex. A simple web interface with the ease of simpler process would be more helpful for specific query.
+2. Student sometimes need some insight of all of the courses in CMU, while SIO doesn't give too much of that.
+* **Where are you going to pull the data from?**
+ (For Now)[CMU Course Schedule Website](https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/search)
 
-- Deliverable 1 - Project Proposal (Using GitHub Pages)
-  - Who are your customers?
-  - What are their needs?
-  - What specific problem(s) will you solve?
-  - Why do these problems need solved?
-  - Where are you going to pull the data from?
-- Deliverable 2 - Project Board (Using GitHub Project Boards)
-  - A detailed list of tasks that need performed in order to accomplish this project.
-- Deliverable 3 - Web Scraped Data Review (Using GitHub)
-  - An example CSV file that contains data scraped and/or extracted from your data sources.
-  - Associated source code that scrapes and/or pulls the data.
-- Deliverable 4 - UI Wireframe Review (Using GitHub Pages)
-  - Basic wireframes or screenshot captures documented in your GitHub pages with a detailed description of the application.
-- Deliverable 5 - Source Code, Project Board, Documentation, Deployed Application, and Demo
-  - Source Code will be Posted on GitHub
-  - Project Board will use GitHub Project Boards
-  - Documentation will use GitHub Pages
-  - Deployed Application will be hosted on Heroku
-  - Demo will be performed In-Class
+## Reference
 
-## Useful Links
-
-- [GitHub](https://github.com)
-- [GitHub Pages](https://pages.github.com)
-- [GitHub Project Boards](https://help.github.com/articles/about-project-boards)
-- [Heroku](https://www.heroku.com/)
-  - [Deploying Python](https://devcenter.heroku.com/articles/deploying-python)
-  - [Django App Configuration](https://devcenter.heroku.com/articles/django-app-configuration)
-  - [Django Assets](https://devcenter.heroku.com/articles/django-assets)
+- [CMU Course Find](https://www.cmucoursefind.xyz/)
+- [Scotty Lab API](https://scottylabs.org/course-api/)
