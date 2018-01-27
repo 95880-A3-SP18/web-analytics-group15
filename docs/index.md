@@ -12,7 +12,7 @@ CMU students and staffs.
 Sometimes it's hard to find courses' information through SIO. Students need an easy-to-use/ more interacted friendly web interface for them to make simple query for CMU course. They also needs an insightful course analytics.
 
 ### **What specific problem(s) will you solve?**
-We want to provide our customers a clearer summary of the courses' information. We want to provide several different choices(solves different problems), and the customers choose which problem they would like to inspect. The problems we now consider to solve include:
+We want to provide our customers a clearer summary of the courses' information. We plan to offer several choices(which solves different problems), and the customers can choose which problem they would like to inspect based on their needs. The problems we now consider to solve include:
 - What courses (eg. in Heinz or SCS) are currently ongoing right now? /Given a time slot, which courses are available?
 - What is the beginning time and location of a specific course?
 - Which professor/staff teaches most of the courses?
