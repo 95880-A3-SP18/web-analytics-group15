@@ -1,0 +1,49 @@
+,Course_id,Course Title,Session,Units,Sec,Mini,Days,Begin,End,Teaching Location,Bldg/Room,Instructor
+0,45720,Finance I,Session,6,F6,Y,TR,08:00PM,09:50PM,"Pittsburgh, Pennsylvania",TPR 2110,"Telmer, Chris"
+1,45720,Finance I,Session,,M6,Y,TR,06:00PM,07:50PM,"Pittsburgh, Pennsylvania",TBA,"Telmer, Chris"
+2,45751,Optimization,Session,6,F6,Y,TR,06:00PM,07:50PM,"Pittsburgh, Pennsylvania",TPR 2110,"Kilinc-Karzan, Fatma"
+3,45770,Corporate Strategy,Session,6,F5,Y,TR,06:00PM,07:45PM,"Pittsburgh, Pennsylvania",POS 152,"Hahl, Oliver"
+4,45770,Corporate Strategy,Session,,M5,Y,TR,08:00PM,09:50PM,"Pittsburgh, Pennsylvania",TBA,"Hahl, Oliver"
+5,45790,Management Presentations,Session,6,F5,Y,TR,08:00PM,09:50PM,"Pittsburgh, Pennsylvania",POS 145,"Pierce, Evelyn"
+6,45790,Management Presentations,Session,,G5,Y,TR,08:00PM,09:50PM,"Pittsburgh, Pennsylvania",POS 146,"Placone, Ronald"
+7,45790,Management Presentations,Session,,M5,Y,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,"Pierce, Evelyn"
+8,45790,Management Presentations,Session,,O5,Y,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,"Pierce, Evelyn"
+9,45791,Interpersonal Managerial  Communications,Session,6,M6,Y,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,"Deems, Julia"
+10,45791,Interpersonal Managerial  Communications,Session,,O6,Y,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,"Deems, Julia"
+11,45803,"Strategy, Performance Measurement and Corporate Governance                       : Strategy, Performance Measurement and Corporate Governance",Session,6,E6,Y,M,06:00PM,09:30PM,"Pittsburgh, Pennsylvania",TPR 2111,"Corona, Carlos"
+12,45805,Lean Entrepreneurship,Session,6,M5,Y,M,06:00PM,09:30PM,"Pittsburgh, Pennsylvania",TBA,"Ammirati, Sean"
+13,45830,Marketing Research,Session,6,M6,Y,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,"Galak, Jeffrey"
+14,45835,Business Development and Sales Management Leadership,Session,6,E5,Y,T,06:00PM,09:30PM,"Pittsburgh, Pennsylvania",POS 152,"Roman, Peter"
+15,45890,Consulting and Conflict Resolution,Session,6,E6,Y,T,06:00PM,09:00PM,"Pittsburgh, Pennsylvania",TPR 2118,"Young, Richard"
+16,45892,Executive Communication Skills,Session,6,E5,Y,M,06:00PM,09:00PM,"Pittsburgh, Pennsylvania",TBA,"Pierce, Evelyn"
+17,45895,Acting for Business I                                                            : Acting for Business I,Session,6,E6,Y,R,06:00PM,09:30PM,"Pittsburgh, Pennsylvania",TPR 2118,"Hitch, Geoffrey"
+18,45933,Marketing Communication for Consumer Brands,Session,6,E6,Y,W,06:00PM,09:30PM,"Pittsburgh, Pennsylvania",TPR 2111,"Murphy, Melissa"
+19,45941,Evidence-Based Management,Session,6,E6,Y,R,06:00PM,09:30PM,"Pittsburgh, Pennsylvania",TPR 2111,"Rousseau, Denise"
+20,45942,Organizational Change,Session,6,M5,Y,R,06:00PM,09:30PM,"Pittsburgh, Pennsylvania",TBA,"Beenen, Gerard"
+21,45965,Service Management:  Go-To-Marketing Strategy and Operations,Session,6,E5,Y,M,06:00PM,09:30PM,"Pittsburgh, Pennsylvania",TBA,"Tayur, Sridhar"
+22,45970,Studies in Strategy,Session,6,M6,Y,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,"Williams, Jeffrey"
+23,45990,Management Game                                                                  : Management Game,Session,12,M,,W,06:45PM,09:30PM,"Pittsburgh, Pennsylvania",TBA,"Lamont, David"
+24,45998,Independent Study                                                                : Independent Study,Session,12,E,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,TBA
+25,45999,Internship Practicum                                                             : Internship Practicum,Session,3,E,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,"Barraclough, Kathryn"
+26,45999,Internship Practicum                                                             : Internship Practicum,Session,,R,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,"Barraclough, Kathryn"
+27,46772,Financial Computing,Session,0,E5,Y,M,09:00AM,12:00PM,"Pittsburgh, Pennsylvania",TBA,"Kramkov, Dmitry"
+28,46773,Simulation Methods,Session,0,E5,Y,T,09:00AM,12:00PM,"Pittsburgh, Pennsylvania",TBA,"Lehoczky, John"
+29,46774,Term Structure Theory and Practice,Session,0,E5,Y,W,09:00AM,12:00PM,"Pittsburgh, Pennsylvania",TBA,"Seppi, Duane
+Hollifield, George Burton"
+30,46775,Advanced Risk Management,Session,0,E5,Y,R,09:00AM,12:00PM,"Pittsburgh, Pennsylvania",TBA,"O'Brien, John"
+31,46800,Research Practicum,Session,0,E5,Y,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+32,46800,Research Practicum,Session,,E6,Y,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+33,46900,MSCF Programming Prep,Session,0,I6,Y,TR,04:30PM,07:20PM,"Pittsburgh, Pennsylvania",POS 145,"Dauberger, Darren"
+34,46900,MSCF Programming Prep,Session,,M6,Y,TR,04:30PM,07:20PM,"New York, New York",TPR NY1,"Dauberger, Darren"
+35,46910,MSCF Business Communication V,Session,1,I6,Y,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,TBA
+36,46910,MSCF Business Communication V,Session,,M6,Y,TBA,TBA,TBA,"New York, New York",TBA,TBA
+37,46920,MSCF Probability Prep                                                            : MSCF Probability Prep,Session,0,I6,Y,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,TBA
+38,46920,: MSCF Probability Prep,Session,,M6,Y,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,TBA
+39,46999,MSCF Summer Internship,Session,3,I,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,"Bryant, Rick"
+40,46999,MSCF Summer Internship,Session,,M,,TBA,TBA,TBA,"New York, New York",DNM,"Bryant, Rick"
+41,47900,Tepper PhD,Session,1-36,M,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+42,47900,Tepper PhD,summer two,,U,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+43,47995,Graduate Reading & Research,summer two,"12,36",M,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+44,47995,Graduate Reading & Research,summer two,,U,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+45,47998,Tepper PhD Internship,summer two,3-36,M,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+46,47998,Tepper PhD Internship,summer two,,U,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA

@@ -1,0 +1,43 @@
+,Course_id,Course Title,Session,Units,Sec,Mini,Days,Begin,End,Teaching Location,Bldg/Room,Instructor
+0,17610,Risk Management for Software Intensive Projects,summer all,6,B6,Y,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,"Root, David"
+1,17611,DevOps: Engineering for Deployment and Operations,summer all,12,A,,MW,01:30PM,02:50PM,"Pittsburgh, Pennsylvania",3SC 265,"Bass, Len
+Yasar, Hasan"
+2,17638,Systems Architecture for Managers,summer all,6,B5,Y,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,"Keeling, Michael"
+3,17648,Engineering Data Intensive Scalable Systems,summer all,12,A,,TR,01:30PM,02:50PM,"Pittsburgh, Pennsylvania",3SC 265,"Bass, Matthew"
+4,17653,Managing Software Development,summer all,12,B,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,"Greenhalgh Lubas, Debra"
+5,17655,Architectures for Software Systems,summer all,12,B,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+6,17672,Software Development Studio II,summer all,36,A,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,"Root, David
+Lattanze, Anthony
+Rosso-Llopart, Manuel
+Bass, Matthew
+Miranda, Eduardo"
+7,17676,Software Engineering Bootcamp,summer all,0,A5,Y,MW,10:30AM,11:50AM,"Pittsburgh, Pennsylvania",3SC 265,"Miranda, Eduardo
+Bass, Matthew
+Root, David
+Rosso-Llopart, Manuel
+Lattanze, Anthony"
+8,17677,MSIT Project I,summer all,0-24,B,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,"Lattanze, Anthony
+Root, David
+Bass, Matthew
+Miranda, Eduardo"
+9,17677,MSIT Project I,summer all,,C,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,"Root, David"
+10,17678,MSIT Project II,summer all,12-36,A,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,"Lattanze, Anthony
+Root, David
+Rosso-Llopart, Manuel
+Bass, Matthew
+Miranda, Eduardo"
+11,17678,MSIT Project II,summer all,,B,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,"Root, David"
+12,17678,MSIT Project II,summer all,,C,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,"Root, David
+Rosso-Llopart, Manuel
+Bass, Matthew
+Lattanze, Anthony"
+13,17699,Independent Study,summer all,3-27,A,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,"Rosso-Llopart, Manuel
+Root, David
+Lattanze, Anthony"
+14,17699,Independent Study,summer all,,B,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,"Root, David"
+15,17997,Graduate Reading and Research,summer all,1-48,PP,,TBA,TBA,TBA,"Lisbon, Portugal",DNM,"Aldrich, Jonathan"
+16,17997,Graduate Reading and Research,summer all,,R,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,"Aldrich, Jonathan"
+17,17997,: Software Engineering Graduate Reading and Research,summer one,,S,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,"Aldrich, Jonathan"
+18,17997,: Software Engineering Graduate Reading and Research,summer two,,U,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,"Aldrich, Jonathan"
+19,17998,Software Engineering Practicum Internship,summer two,VAR,I,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,"Aldrich, Jonathan"
+20,17998,Software Engineering Practicum Internship,summer two,,R,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,"Aldrich, Jonathan"

@@ -1,0 +1,87 @@
+,Course_id,Course Title,Session,Units,Sec,Mini,Days,Begin,End,Teaching Location,Bldg/Room,Instructor
+0,95565,Introduction to Information Security,summer all,9,A,,MW,03:00PM,04:20PM,"Pittsburgh, Pennsylvania",HBH 1006,"Trzeciak, Randall
+Mayes, Joseph"
+1,95568,Data Management and Security,summer all,9,A,,MW,01:30PM,02:50PM,"Pittsburgh, Pennsylvania",HBH 1007,"Sooriamurthi, Raja"
+2,95569,Ethical Penetration Testing,summer all,9,A,,TR,03:00PM,04:20PM,"Pittsburgh, Pennsylvania",HBH 1007,"Albrethsen, Michael
+Cook, Michael"
+3,95703,Database Management,summer all,12,A,,TR,01:30PM,02:50PM,"Pittsburgh, Pennsylvania",HBH 2008,"Szczypula, Janusz"
+4,95703,Database Management,summer all,,B,,W,06:00PM,08:50PM,"Pittsburgh, Pennsylvania",HBH 2008,"Szczypula, Janusz"
+5,95703,Database Management,summer all,,C,,TR,04:30PM,05:50PM,"Pittsburgh, Pennsylvania",HBH 2008,"Szczypula, Janusz"
+6,95705,Telecommunications Management,qatar summer,12,Z,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,"Yucel, Sakir"
+7,95710,Economic Analysis,qatar summer,6,Z6,Y,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,TBA
+8,95712,Object Oriented Programming in JAVA,summer all,12,A,,TR,03:00PM,04:20PM,"Pittsburgh, Pennsylvania",HBH A301,"Dwivedi, Neelam"
+9,95712,Object Oriented Programming in JAVA,summer all,,B,,T,06:00PM,08:50PM,"Pittsburgh, Pennsylvania",HBH A301,"Dwivedi, Neelam"
+10,95715,Financial Accounting,summer all,6,A5,Y,MW,09:00AM,10:20AM,"Pittsburgh, Pennsylvania",HBH 1202,"Pastor, Lynne"
+11,95715,Financial Accounting,summer all,,B5,Y,MW,10:30AM,11:50AM,"Pittsburgh, Pennsylvania",HBH 1202,"Pastor, Lynne"
+12,95717,Writing for Information Systems Management,summer all,6,A6,Y,MW,01:30PM,02:50PM,"Pittsburgh, Pennsylvania",HBH 1005,"Walter, Beth"
+13,95717,Writing for Information Systems Management,summer all,,B6,Y,MW,03:00PM,04:20PM,"Pittsburgh, Pennsylvania",HBH 1005,"Walter, Beth"
+14,95717,Writing for Information Systems Management,qatar summer,,Y6,Y,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,"Hyatt, Kim"
+15,95717,Writing for Information Systems Management,qatar summer,,Z6,Y,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,"Hyatt, Kim"
+16,95718,Professional Speaking,summer all,6,A6,Y,MW,09:00AM,10:20AM,"Pittsburgh, Pennsylvania",HBH 2003,"Labash, Stefan"
+17,95718,Professional Speaking,summer all,,B6,Y,MW,10:30AM,11:50AM,"Pittsburgh, Pennsylvania",HBH 2003,"Labash, Stefan"
+18,95718,Professional Speaking,summer all,,C6,Y,TR,09:00AM,10:20AM,"Pittsburgh, Pennsylvania",HBH 2003,"Labash, Stefan"
+19,95718,Professional Speaking,summer all,,D6,Y,TR,10:30AM,11:50AM,"Pittsburgh, Pennsylvania",HBH 2003,"Labash, Stefan"
+20,95718,Professional Speaking,summer all,,E6,Y,MW,01:30PM,02:50PM,"Pittsburgh, Pennsylvania",HBH 2003,"Labash, Stefan"
+21,95718,Professional Speaking,summer all,,F6,Y,TR,01:30PM,02:50PM,"Pittsburgh, Pennsylvania",HBH 2003,"Labash, Stefan"
+22,95720,Information Systems Project,summer all,0-24,K,,W,03:00PM,05:50PM,"Adelaide, Australia",TOR CLASS2,"Esmail Zadeh, Riaz
+MCconchie, Jan"
+23,95720,Information Systems Project,summer one,,T,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+24,95720,Information Systems Project,summer two,,V,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+25,95720,Information Systems Project,qatar summer,,W,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+26,95720,Information Systems Project,qatar summer,,X,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+27,95720,Information Systems Project,qatar summer,,Y,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+28,95720,Information Systems Project,qatar summer,,Z,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+29,95730,E-Business Technology and Management,qatar summer,12,K,,MW,01:30PM,02:50PM,"Adelaide, Australia",TOR CLASS2,"Esmail Zadeh, Riaz"
+30,95733,Internet Technologies,qatar summer,6,K5,Y,T,09:00AM,11:50AM,"Adelaide, Australia",TOR CLASS1,"Mccarthy, Michael"
+31,95733,Internet Technologies,qatar summer,,N,Y,R,04:30PM,05:50PM,"Adelaide, Australia",TOR CLASS2,"Mccarthy, Michael"
+32,95737,NoSQL Database Management,qatar summer,6,Z6,Y,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,"Costa, Daniel"
+33,95744,Cybersecurity Policy and Governance I,qatar summer,6,K5,Y,TBA,TBA,TBA,"Adelaide, Australia",TBA,TBA
+34,95755,Information Security Risk Management I,qatar summer,6,K5,Y,TBA,TBA,TBA,"Adelaide, Australia",TBA,TBA
+35,95760,Decision Making Under Uncertainty,qatar summer,6,K6,Y,TRF,03:00PM,04:20PM,"Adelaide, Australia",TOR CLASS2,"Esmail Zadeh, Riaz"
+36,95760,Decision Making Under Uncertainty,qatar summer,,Z6,Y,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,"Taylor, Don"
+37,95763,Introduction to Human Computer Interaction for Technology Executives,qatar summer,6,Z5,Y,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,"Myers, Brad"
+38,95796,Statistics for IT Managers,summer all,6,A5,Y,F,09:00AM,11:50AM,"Pittsburgh, Pennsylvania",HBH A301,"Zamzow, Benjamin"
+39,95796,Statistics for IT Managers,summer all,,N,Y,F,04:30PM,05:50PM,"Pittsburgh, Pennsylvania",HBH A301,"Zamzow, Benjamin"
+40,95796,Statistics for IT Managers,summer all,,B5,Y,F,01:30PM,04:20PM,"Pittsburgh, Pennsylvania",HBH A301,"Zamzow, Benjamin"
+41,95796,Statistics for IT Managers,summer all,,N,Y,F,04:30PM,05:50PM,"Pittsburgh, Pennsylvania",HBH A301,"Zamzow, Benjamin"
+42,95797,Data Warehousing,summer all,6,K6,Y,R,09:00AM,11:50AM,"Adelaide, Australia",TOR CLASS1,TBA
+43,95797,Data Warehousing,qatar summer,,Z5,Y,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,TBA
+44,95868,Exploring and Visualizing Data,qatar summer,6,Z5,Y,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,"Taylor, Don"
+45,95869,Big Data and Large-scale Computing,qatar summer,6,K5,Y,WF,09:00AM,10:20AM,"Adelaide, Australia",TOR CLASS1,"Viswanathan, Murlikrishna"
+46,95880,Python for Developers,summer all,6,A6,Y,M,06:00PM,08:50PM,"Pittsburgh, Pennsylvania",HBH A301,"Ostlund, John"
+47,95883,Ethical Penetration Testing,qatar summer,6,Z6,Y,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,TBA
+48,95884,Network Defenses,qatar summer,6,Z5,Y,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,TBA
+49,95889,Applied Threat Analysis,qatar summer,12,Z,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,"O'Meara, Kyle"
+50,95894,Agile for Product Management,summer all,6,A5,Y,W,06:00PM,08:50PM,"Pittsburgh, Pennsylvania",HBH A301,"Davis, John"
+51,95900,Internship,summer all,0-6,A,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,"Beggs, Sean"
+52,95900,Internship,summer all,,K,,TBA,TBA,TBA,"Adelaide, Australia",TBA,"O'Loughlin, Timothy"
+53,95901,Independent Study,summer all,1-24,A,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+54,95901,Independent Study,summer all,,K,,TBA,TBA,TBA,"Adelaide, Australia",TBA,TBA
+55,95902,Independent Study,summer all,1-24,A,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+56,95902,Independent Study,summer all,,K,,TBA,TBA,TBA,"Adelaide, Australia",DNM,TBA
+57,95903,Independent Study,summer all,1-24,A,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+58,95903,Independent Study,summer all,,K,,TBA,TBA,TBA,"Adelaide, Australia",DNM,TBA
+59,95904,Independent Study,summer all,1-24,A,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+60,95904,Independent Study,summer all,,K,,TBA,TBA,TBA,"Adelaide, Australia",TBA,TBA
+61,95905,Independent Study,summer all,1-24,A,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+62,95905,Independent Study,summer all,,K,,TBA,TBA,TBA,"Adelaide, Australia",DNM,TBA
+63,95906,Independent Study,summer all,6,A,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+64,95906,Independent Study,summer all,,K,,TBA,TBA,TBA,"Adelaide, Australia",TBA,TBA
+65,95907,Independent Study,summer all,1-24,A,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+66,95907,Independent Study,summer all,,K,,TBA,TBA,TBA,"Adelaide, Australia",DNM,TBA
+67,95908,Independent Study,summer all,1-24,A,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+68,95908,Independent Study,summer all,,K,,TBA,TBA,TBA,"Adelaide, Australia",DNM,TBA
+69,95909,Independent Study,summer all,1-24,A,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+70,95909,Independent Study,summer all,,K,,TBA,TBA,TBA,"Adelaide, Australia",DNM,TBA
+71,95910,Independent Study,summer all,1-24,A,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+72,95910,Independent Study,summer all,,K,,TBA,TBA,TBA,"Adelaide, Australia",DNM,TBA
+73,95911,Independent Study,summer all,1-24,A,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+74,95911,Independent Study,summer all,,K,,TBA,TBA,TBA,"Adelaide, Australia",DNM,TBA
+75,95912,Independent Study,summer all,1-24,A,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+76,95912,Independent Study,summer all,,K,,TBA,TBA,TBA,"Adelaide, Australia",DNM,TBA
+77,95913,Independent Study,summer all,1-24,A,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+78,95913,Independent Study,summer all,,K,,TBA,TBA,TBA,"Adelaide, Australia",DNM,TBA
+79,95914,Independent Study,summer all,1-24,A,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+80,95914,Independent Study,summer all,,K,,TBA,TBA,TBA,"Adelaide, Australia",DNM,TBA
+81,95915,Independent Study,summer all,1-24,A,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,TBA
+82,95915,Independent Study,summer all,,K,,TBA,TBA,TBA,"Adelaide, Australia",DNM,TBA

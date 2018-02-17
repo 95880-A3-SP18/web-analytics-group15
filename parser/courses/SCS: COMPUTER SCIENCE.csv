@@ -1,0 +1,24 @@
+,Course_id,Course Title,Session,Units,Sec,Mini,Days,Begin,End,Teaching Location,Bldg/Room,Instructor
+0,15090,Computer Science Practicum,summer all,3,A,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,"Cortina, Thomas"
+1,15110,Principles of Computing,summer two,10,U,,MTWRF,09:00AM,10:20AM,"Pittsburgh, Pennsylvania",GHC 4215,TBA
+2,15110,Principles of Computing,summer two,,N,,MTWRF,04:30PM,05:20PM,"Pittsburgh, Pennsylvania",GHC CLSTR,TBA
+3,15112,Fundamentals of Programming and Computer Science,summer one,12,S,,MTWRF,09:00AM,10:20AM,"Pittsburgh, Pennsylvania",DH  A302,TBA
+4,15112,Fundamentals of Programming and Computer Science,summer one,,N,,MTWRF,05:30PM,06:20PM,"Pittsburgh, Pennsylvania",TBA,TBA
+5,15122,Principles of Imperative Computation,summer two,10,U,,MTWRF,10:30AM,11:50AM,"Pittsburgh, Pennsylvania",GHC 4215,TBA
+6,15122,Principles of Imperative Computation,summer two,,N,,MTWRF,03:00PM,04:20PM,"Pittsburgh, Pennsylvania",GHC CLSTR,TBA
+7,15150,Principles of Functional Programming,summer one,10,S,,MTWRF,09:00AM,10:20AM,"Pittsburgh, Pennsylvania",GHC CLSTR,TBA
+8,15150,Principles of Functional Programming,summer one,,N,,MTWRF,01:30PM,02:50PM,"Pittsburgh, Pennsylvania",GHC 4215,TBA
+9,15151,Mathematical Foundations for Computer Science,summer one,10,N,,MTWRF,08:00AM,09:20AM,"Pittsburgh, Pennsylvania",GHC 4211,TBA
+10,15213,Introduction to Computer Systems,summer all,12,A,,TWRF,12:00PM,01:20PM,"Pittsburgh, Pennsylvania",GHC 4215,"Railing, Brian"
+11,15513,Introduction to Computer Systems,summer all,12,A,,TBA,TBA,TBA,Unknown Location,DNM,"Railing, Brian"
+12,15591,Independent Study in Computer Science,summer all,3-18,A,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,"Cortina, Thomas"
+13,15689,Independent Study in the Computer Sciences,summer all,3-12,A,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,"Eckhardt, David
+TBA"
+14,15691,Practicum,summer all,3-24,R,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,"Eckhardt, David
+Crary, Karl"
+15,15697,Graduate Reading and Research,summer all,1-48,R,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,TBA
+16,15698,Graduate Reading and Research,summer all,1-36,R,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,TBA
+17,15997,Graduate Reading and Research,summer all,1-60,PP,,TBA,TBA,TBA,"Lisbon, Portugal",TBA,TBA
+18,15997,Graduate Reading and Research,summer all,,R,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,"Mowry, Todd"
+19,15998,Practicum in Computer Science                                                    : Internship,summer all,1-36,I,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",DNM,"Mowry, Todd"
+20,15998,: Practicum,summer all,,R,,TBA,TBA,TBA,"Pittsburgh, Pennsylvania",TBA,"Mowry, Todd"
