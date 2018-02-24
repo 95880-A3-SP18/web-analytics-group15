@@ -31,6 +31,18 @@ We want to provide our customers a clearer summary of the courses' information. 
 ### **Where are you going to pull the data from?**
  (For Now)[CMU Course Schedule Website](https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/search)
 
+## Deliverable 2 - Project Board
+[Project Board Link](https://github.com/95880-A3-SP18/web-analytics-group15/projects/1)
+
+## Deliverable 3 - Web Scrapped Data Review
+[Web Scrapped Data & Code Link](https://github.com/95880-A3-SP18/web-analytics-group15/tree/master/parser)
+
+## Deliverable 4 - Project Proposal
+![Image text](https://github.com/95880-A3-SP18/web-analytics-group15/tree/master/docs/images/wireframe.jpeg)
+### The following are the pictures we drew for the wireframes. Our app will mainly have two page, one is the main page and one is graph page. In the main page, it can list the courses information and search specific courses. In the graph page, it can do some descriptive analysis on the data based on users' choices.
+![Image text](https://github.com/95880-A3-SP18/web-analytics-group15/tree/master/docs/images/MainPage.png)
+![Image text](https://github.com/95880-A3-SP18/web-analytics-group15/tree/master/docs/images/GraphPage.png)
+
 ## Reference
 
 - [CMU Course Find](https://www.cmucoursefind.xyz/)
