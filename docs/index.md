@@ -38,10 +38,10 @@ We want to provide our customers a clearer summary of the courses' information. 
 [Web Scrapped Data & Code Link](https://github.com/95880-A3-SP18/web-analytics-group15/tree/master/parser)
 
 ## Deliverable 4 - Project Proposal
-![Image text](https://github.com/95880-A3-SP18/web-analytics-group15/tree/master/docs/images/wireframe.jpeg)
-### The following are the pictures we drew for the wireframes. Our app will mainly have two page, one is the main page and one is graph page. In the main page, it can list the courses information and search specific courses. In the graph page, it can do some descriptive analysis on the data based on users' choices.
-![Image text](https://github.com/95880-A3-SP18/web-analytics-group15/tree/master/docs/images/MainPage.png)
-![Image text](https://github.com/95880-A3-SP18/web-analytics-group15/tree/master/docs/images/GraphPage.png)
+![Wireframe](https://github.com/95880-A3-SP18/web-analytics-group15/tree/master/docs/images/wireframe.jpeg)
+The following are the pictures we drew for the wireframes. Our app will mainly have two page, one is the main page and one is graph page. In the main page, it can list the courses information and search specific courses. In the graph page, it can do some descriptive analysis on the data based on users' choices.
+![Main Page](https://github.com/95880-A3-SP18/web-analytics-group15/tree/master/docs/images/MainPage.png)
+![Graph Page](https://github.com/95880-A3-SP18/web-analytics-group15/blob/master/docs/images/GraphPage.png)
 
 ## Reference
 
