@@ -1,0 +1,11 @@
+{% extends 'courses/base.html' %}
+
+{% block body %}
+    <div id="courseListDiv" class="collection">
+        <h4>Found {{ course_list|length }} courses</h4>
+            {% for course in course_list %}
+                 <a href="#!" class="collection-item">{{ course.course_title }}</a>
+            {% endfor %}
+    </div>
+
+{% endblock %}
