@@ -56,7 +56,10 @@ def getCourseDF(course_dict):
         single_list.append(value)
         for row in course_soup.find_all('div', class_="col-md-6"):
             if (row.find('dt').get_text() == 'Related URLs'):
-                single_list.append(row.find('a').get_text())
+                try:
+                    single_list.append(row.find('a').get_text())
+                 except:
+                    single_list.append('None')
             if (row.find('dt').get_text() == 'Special Permission Required'):
                 single_list.append(row.find('dd').get_text())
             if (row.find('dt').get_text() == 'Prerequisites'):
