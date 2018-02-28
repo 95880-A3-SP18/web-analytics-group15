@@ -5,4 +5,5 @@ from courses import views
 app_name = 'courses'
 urlpatterns = [
     path('', views.IndexView.as_view(), name='index'),
+    path('search/', views.search, name='search'),
 ]
