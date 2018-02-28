@@ -1,0 +1,14 @@
+#courseListDiv div {
+    padding-top: 30px;
+    padding-left:20%;
+}
+
+.footer {
+    position: fixed;
+    padding-top: 15px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #F8F9FA;
+}

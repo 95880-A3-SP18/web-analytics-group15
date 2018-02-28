@@ -1,11 +1,17 @@
 {% extends 'courses/base.html' %}
 
 {% block body %}
-    <div id="courseListDiv" class="collection">
-        <h4>Found {{ course_list|length }} courses</h4>
+    <div id="courseListDiv">
+        <h4>Found {{ course_list|length }} courses >></h4>
+
+        <div class="list-group w-75 align-self-center">
             {% for course in course_list %}
-                 <a href="#!" class="collection-item">{{ course.course_title }}</a>
+                <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center" href="#">
+                    {{ course.course_id }} {{ course.course_title }} - {{ course.instructor }}
+                    <span class="badge badge-primary badge-pill">start in 14 minutes</span>
+                </a>
             {% endfor %}
+        </div>
     </div>
 
 {% endblock %}
