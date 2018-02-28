@@ -21,6 +21,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
+    <script type="text/javascript" src="{% static 'courses/js/script.js' %}"></script>
 
     <!-- Icon -->
     <link rel="icon" type="image/png" href="{% static 'courses/icon.png' %}"/>
@@ -44,14 +45,14 @@
                 <a class="nav-link" href="#">Statistic</a>
             </li>
         </ul>
-        <form class="form-inline w-50 d-flex justify-content-end">
-            <select class="custom-select w-25">
-                <option>Advanced</option>
-                <option>Title</option>
-                <option>Instructor</option>
-                <option>Building</option>
+        <form class="form-inline w-50 d-flex justify-content-end" method="get" action="{% url 'courses:search' %}">
+            <select class="custom-select w-25" name="search_field" id="search_field_slct">
+                <option value="all">Advanced</option>
+                <option value="title">Title</option>
+                <option value="instructor">Instructor</option>
+                <option value="building">Building</option>
             </select>
-            <input class="form-control mr-sm-2 w-50" type="search" placeholder="Search" aria-label="Search">
+            <input class="form-control mr-sm-2 w-50" type="search" placeholder="Search" aria-label="Search" name="search_word" required>
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
     </div>
