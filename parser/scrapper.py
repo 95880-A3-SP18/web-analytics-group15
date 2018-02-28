@@ -62,4 +62,44 @@ def parse_page(file):
         records.clear()
         records.append(labels)
 
-parse_page('/Users/guanqiy/CMUCourse/95880/capstone/web-analytics-group15/parser/CMU_courses.htm')
+def parse_all_page(file):
+    htmlfile = open(file, 'r', encoding='latin-1')  # open a local html file, read only
+    htmlpage = htmlfile.read()
+    soup = BeautifulSoup(htmlpage, 'html.parser')
+
+    # labels for the all courses
+    labels = ['Course ID', 'Course Title', 'Units', 'Sec', 'Mini', 'Days', 'Begin', 'End',
+              'Teaching Location', 'Bldg/Room', 'Instructor', 'Department']
+    # init pandas frame for all courses
+    course_df = pd.DataFrame(columns=labels)
+
+    department_titles = soup.find_all('h4', class_="department-title")
+    department_tables = soup.find_all('table', class_="table table-condensed table-striped")
+    for department_title, department_table in zip(department_titles, department_tables):
+        records = []
+        department = department_title.get_text()
+
+        # find each course in the department
+        courses = department_table.find('tbody').find_all('tr')
+        for course in courses:
+            record = []
+            attributes = course.find_all('td')
+            for i in range(len(attributes)):
+                attribute = attributes[i].get_text().strip()
+                # MINI course or not
+                if i == 4 and (attribute == '' or attribute == '&nbsp'):
+                    attribute = 'N'
+                if i in [0, 1, 2] and (attribute == '' or attribute == '&nbsp'):
+                    attribute = records[-1][i]
+                record.append(attribute)
+            record.append(department)
+            records.append(tuple(record))
+
+        department_df = pd.DataFrame(records, columns=labels)
+        course_df = course_df.append(department_df)
+        course_df.reset_index(drop=True, inplace=True)
+
+    course_df.to_csv('./web-analytics-group15/parser/all_spring_courses.csv')
+
+
+parse_all_page('/Users/guanqiy/CMUCourse/95880/capstone/web-analytics-group15/parser/shedule.html')
