@@ -1,3 +1,4 @@
+from datetime import date, datetime
 from django.db.models import Q
 from django.shortcuts import render
 from django.views import generic
@@ -10,6 +11,13 @@ class IndexView(generic.ListView):
 
     def get_queryset(self):
         return Course.objects.all()
+
+
+def index(request):
+    course_list = Course.objects.all()
+    show_time, current_course_list = get_show_time(course_list)
+
+    return render(request, 'courses/index.html', {'course_list': current_course_list, 'show_time': show_time})
 
 
 def search(request):
@@ -28,4 +36,49 @@ def search(request):
     elif search_field == 'building':
         course_list = Course.objects.filter(bldg_room__contains=search_word)
 
-    return render(request, 'courses/index.html', {'course_list': course_list, 'search_field': search_field})
+    show_time, current_course_list = get_show_time(course_list)
+
+    return render(request, 'courses/index.html',
+                  {'course_list': course_list, 'search_field': search_field, 'show_time': show_time})
+
+
+def get_show_time(course_list):
+    show_time = {}
+    current_course_list = []
+
+    now = datetime.now()
+    day = now.strftime('%A')[0]
+    time = now.strftime('%H:%M')
+    now_minutes = int(time[0:2]) * 60 + int(time[3:5])
+    print(time, ': ', now_minutes)
+
+    for course in course_list:
+        if 'A' not in course.section or day not in course.days:  # not a current course
+            if course.days == 'TBA':
+                show_time[course.pk] = course.days
+            else:
+                show_time[course.pk] = course.days + ' ' + course.begin
+        else:
+            beg_minutes = get_course_minutes(course.begin)
+            end_minutes = get_course_minutes(course.end)
+
+            if now_minutes < beg_minutes < now_minutes + 60:
+                show_time[course.pk] = 'Starts in %d minutes' % (beg_minutes - now_minutes)
+                current_course_list.append(course)
+            elif beg_minutes < now_minutes < end_minutes:
+                show_time[course.pk] = 'Ends in %d minutes' % (end_minutes - now_minutes)
+                current_course_list.append(course)
+            else:
+                show_time[course.pk] = course.days + course.begin
+
+    return show_time, current_course_list
+
+
+def get_course_minutes(time):
+    hour = int(time[0:2])
+    minute = int(time[3:5])
+
+    if time[5:7] == 'PM' and hour != 12:
+        hour += 12
+
+    return hour * 60 + minute
