@@ -130,4 +130,4 @@ tests/report/
 
 # private
 private
-db.sqlite3
+#db.sqlite3
