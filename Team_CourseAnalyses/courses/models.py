@@ -17,3 +17,6 @@ class Course(models.Model):
 
     def __str__(self):
         return self.course_title
+
+    class Meta:
+        ordering = ['course_id']

@@ -15,9 +15,10 @@ class IndexView(generic.ListView):
 
 def index(request):
     course_list = Course.objects.all()
-    show_time, current_course_list = get_show_time(course_list)
+    show_time, ongoing_course_list = get_show_time(course_list)
 
-    return render(request, 'courses/index.html', {'course_list': current_course_list, 'show_time': show_time})
+    return render(request, 'courses/index.html',
+                  {'course_list': course_list, 'ongoing_course_list': ongoing_course_list, 'show_time': show_time})
 
 
 def search(request):
@@ -36,10 +37,11 @@ def search(request):
     elif search_field == 'building':
         course_list = Course.objects.filter(bldg_room__contains=search_word)
 
-    show_time, current_course_list = get_show_time(course_list)
+    show_time, ongoing_course_list = get_show_time(course_list)
 
     return render(request, 'courses/index.html',
-                  {'course_list': course_list, 'search_field': search_field, 'show_time': show_time})
+                  {'course_list': course_list, 'ongoing_course_list': ongoing_course_list, 'search_field': search_field,
+                   'show_time': show_time})
 
 
 def get_show_time(course_list):
@@ -53,7 +55,7 @@ def get_show_time(course_list):
     print(time, ': ', now_minutes)
 
     for course in course_list:
-        if 'A' not in course.section or day not in course.days:  # not a current course
+        if 'A' not in course.section or '4' in course.section or day not in course.days:  # not a current course
             if course.days == 'TBA':
                 show_time[course.pk] = course.days
             else:
