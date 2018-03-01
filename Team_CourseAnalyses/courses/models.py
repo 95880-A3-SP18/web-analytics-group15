@@ -14,6 +14,10 @@ class Course(models.Model):
     bldg_room = models.CharField(max_length=50)
     instructor = models.CharField(max_length=200)
     department = models.CharField(max_length=50)
+    description = models.CharField(max_length=1000, default='0')
 
     def __str__(self):
         return self.course_title
+
+    class Meta:
+        ordering = ['course_id']

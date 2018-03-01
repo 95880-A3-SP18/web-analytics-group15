@@ -23,7 +23,8 @@ def load_data(csv_path):
                 teaching_location=row[9],
                 bldg_room=row[10],
                 instructor=row[11],
-                department=row[12]
+                department=row[12],
+                description=row[13]
             )
 
 if __name__ == "__main__":
