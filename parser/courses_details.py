@@ -58,7 +58,7 @@ def getCourseDF(course_dict):
             if (row.find('dt').get_text() == 'Related URLs'):
                 try:
                     single_list.append(row.find('a').get_text())
-                 except:
+                except:
                     single_list.append('None')
             if (row.find('dt').get_text() == 'Special Permission Required'):
                 single_list.append(row.find('dd').get_text())

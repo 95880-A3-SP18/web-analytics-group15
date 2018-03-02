@@ -3,6 +3,11 @@ from django.db.models import Q
 from django.shortcuts import render
 from django.views import generic
 
+import pandas as pd
+import networkx as nx
+import matplotlib.pyplot as plt
+import os
+
 from courses.models import Course
 
 
@@ -66,17 +71,22 @@ def get_show_time(course_list):
             else:
                 show_time[course.pk] = course.days + ' ' + course.begin
         else:
-            beg_minutes = get_course_minutes(course.begin)
-            end_minutes = get_course_minutes(course.end)
+            if course.begin != 'TBA' and course.end != 'TBA':
+                beg_minutes = get_course_minutes(course.begin)
+                end_minutes = get_course_minutes(course.end)
 
-            if now_minutes < beg_minutes < now_minutes + 60:
-                show_time[course.pk] = 'Starts in %d minutes' % (beg_minutes - now_minutes)
-                current_course_list.append(course)
-            elif beg_minutes < now_minutes < end_minutes:
-                show_time[course.pk] = 'Ends in %d minutes' % (end_minutes - now_minutes)
-                current_course_list.append(course)
+                if now_minutes < beg_minutes < now_minutes + 60:
+                    show_time[course.pk] = 'Starts in %d minutes' % (beg_minutes - now_minutes)
+                    current_course_list.append(course)
+                elif beg_minutes < now_minutes < end_minutes:
+                    show_time[course.pk] = 'Ends in %d minutes' % (end_minutes - now_minutes)
+                    current_course_list.append(course)
+                else:
+                    show_time[course.pk] = course.days + course.begin
             else:
-                show_time[course.pk] = course.days + course.begin
+                show_time[course.pk] = course.days + ' ' + course.begin + ' ' + course.end
+                # Yunlu: there might have situations where course.begin or course.end are 'TBA'
+                # so it could not change to int
 
     return show_time, current_course_list
 
@@ -89,3 +99,54 @@ def get_course_minutes(time):
         hour += 12
 
     return hour * 60 + minute
+
+
+def statistic(request):
+    search = request.GET.get('search_pre')
+    if search == 'please enter a course id' or search is None:
+        return render (request, 'courses/statistic.html')
+    elif not search.isdigit():
+        return render(request, 'courses/statistic.html', {'error_message': 'ONLY ALLOW DIGITS >>> eg. 9 or 95 or 95880'})
+    else:
+        saveSpecificRelation(search)
+        return render(request, 'courses/statistic.html', {'search_pre': search})
+
+
+def saveSpecificRelation(search):
+    picpath = '{}/courses/static/courses/images/'.format(os.getcwd())
+    filepath = '../parser/course_detail_csv/Spring_2018_description.csv'
+
+    course_df = pd.read_csv(filepath)
+    prerequisites_df = course_df[course_df.Prerequisites != 'None'][['Course_id', 'Prerequisites']]
+    corequisites_df = course_df[course_df.Corequisites != 'None'][['Course_id', 'Corequisites']]
+
+    cor_G = nx.Graph()
+    for index in range(len(corequisites_df)):
+        course = corequisites_df.iloc[index]['Course_id']
+        cor = corequisites_df.iloc[index]['Corequisites']
+        if search in str(course):
+            try:
+                for item in cor.split():
+                    if item != ',':
+                        cor_G.add_edge(course, item)
+            except:
+                pass
+    plt.figure(3, figsize=(8, 8))
+    nx.draw(cor_G, with_labels=True, node_color='lightskyblue', edge_color='blue', node_size=80, alpha=0.8)
+    plt.savefig("{}cor_specific.png".format(picpath))
+    plt.close()
+
+    pre_G = nx.DiGraph()
+    for index in range(len(prerequisites_df)):
+        course = prerequisites_df.iloc[index]['Course_id']
+        pre = prerequisites_df.iloc[index]['Prerequisites']
+        if search in str(course):
+            try:
+                for pre_course in pre.replace("(", " ").replace(")", " ").replace("and", " ").replace("or", " ").split():
+                    pre_G.add_edge(pre_course, course)
+            except:
+                pass
+    plt.figure(3, figsize=(12, 12))
+    nx.draw(pre_G, with_labels=True, node_color='lightskyblue', edge_color='blue', node_size=80, alpha=0.8)
+    plt.savefig("{}pre_specific.png".format(picpath))
+    plt.close()
