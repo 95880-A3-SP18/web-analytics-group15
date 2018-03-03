@@ -101,36 +101,44 @@
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
         {% if search_pre %}
-            <div class="collapse show" id="div_cor_specific">
-                <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
-                   href="#collapse_cor_specific" data-toggle="collapse" aria-expanded="false"
-                   aria-controls="collapse_cor_specific">
-                    <span>
-                        <i class="fa fa-bookmark"></i> &nbsp;
-                        {{search_pre}}: Corequisites Relationship
-                    </span>
-                </a>
-                <div class="collapse" id="collapse_cor_specific">
-                    <div class="card card-body">
-                        <img src="/static/courses/images/cor_specific.png" width="500" height="500"><br />
+            {% if cor_draw %}
+                <div class="collapse show" id="div_cor_specific">
+                    <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                       href="#collapse_cor_specific" data-toggle="collapse" aria-expanded="false"
+                       aria-controls="collapse_cor_specific">
+                        <span>
+                            <i class="fa fa-bookmark"></i> &nbsp;
+                            {{search_pre}}: Corequisites Relationship
+                        </span>
+                    </a>
+                    <div class="collapse" id="collapse_cor_specific">
+                        <div class="card card-body">
+                            <img src="/static/courses/images/cor_specific.png" width="500" height="500"><br />
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="collapse show" id="div_pre_specific">
-                <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
-                   href="#collapse_pre_specific" data-toggle="collapse" aria-expanded="false"
-                   aria-controls="collapse_pre_specific">
-                    <span>
-                        <i class="fa fa-bookmark"></i> &nbsp;
-                        {{search_pre}}: Prerequisites Relationship
-                    </span>
-                </a>
-                <div class="collapse" id="collapse_pre_specific">
-                    <div class="card card-body">
-                        <img src="/static/courses/images/pre_specific.png" width="600" height="600"><br />
+            {% else %}
+                <br /><h6 style="color:#005757">{{search_pre}}: The course(s) you searched has no Corequisites</h6>
+            {% endif %}
+            {% if pre_draw %}
+                <div class="collapse show" id="div_pre_specific">
+                    <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+                       href="#collapse_pre_specific" data-toggle="collapse" aria-expanded="false"
+                       aria-controls="collapse_pre_specific">
+                        <span>
+                            <i class="fa fa-bookmark"></i> &nbsp;
+                            {{search_pre}}: Prerequisites Relationship
+                        </span>
+                    </a>
+                    <div class="collapse" id="collapse_pre_specific">
+                        <div class="card card-body">
+                            <img src="/static/courses/images/pre_specific.png" width="600" height="600"><br />
+                        </div>
                     </div>
                 </div>
-            </div>
+            {% else %}
+                <br /><h6 style="color:#005757">{{search_pre}}: The course(s) you searched has no Prerequisites</h6>
+            {% endif %}
         {% endif %}
         <br /><br />
     </div>

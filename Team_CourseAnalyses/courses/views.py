@@ -108,8 +108,8 @@ def statistic(request):
     elif not search.isdigit():
         return render(request, 'courses/statistic.html', {'error_message': 'ONLY ALLOW DIGITS >>> eg. 9 or 95 or 95880'})
     else:
-        saveSpecificRelation(search)
-        return render(request, 'courses/statistic.html', {'search_pre': search})
+        cor_draw, pre_draw = saveSpecificRelation(search)
+        return render(request, 'courses/statistic.html', {'search_pre': search, 'cor_draw':cor_draw, 'pre_draw':pre_draw})
 
 
 def saveSpecificRelation(search):
@@ -121,6 +121,7 @@ def saveSpecificRelation(search):
     corequisites_df = course_df[course_df.Corequisites != 'None'][['Course_id', 'Corequisites']]
 
     cor_G = nx.Graph()
+    cor_draw = False
     for index in range(len(corequisites_df)):
         course = corequisites_df.iloc[index]['Course_id']
         cor = corequisites_df.iloc[index]['Corequisites']
@@ -128,25 +129,38 @@ def saveSpecificRelation(search):
             try:
                 for item in cor.split():
                     if item != ',':
+                        cor_draw = True
                         cor_G.add_edge(course, item)
             except:
                 pass
-    plt.figure(3, figsize=(8, 8))
-    nx.draw(cor_G, with_labels=True, node_color='lightskyblue', edge_color='blue', node_size=80, alpha=0.8)
-    plt.savefig("{}cor_specific.png".format(picpath))
-    plt.close()
+
+    if os.path.exists('{}cor_specific.png'.format(picpath)):
+        os.remove('{}cor_specific.png'.format(picpath))
+    if cor_draw == True:
+        plt.figure(3, figsize=(8, 8))
+        nx.draw(cor_G, with_labels=True, node_color='lightskyblue', edge_color='blue', node_size=80, alpha=0.8)
+        plt.savefig("{}cor_specific.png".format(picpath))
+        plt.close()
 
     pre_G = nx.DiGraph()
+    pre_draw = False
     for index in range(len(prerequisites_df)):
         course = prerequisites_df.iloc[index]['Course_id']
         pre = prerequisites_df.iloc[index]['Prerequisites']
         if search in str(course):
             try:
                 for pre_course in pre.replace("(", " ").replace(")", " ").replace("and", " ").replace("or", " ").split():
+                    pre_draw = True
                     pre_G.add_edge(pre_course, course)
             except:
                 pass
-    plt.figure(3, figsize=(12, 12))
-    nx.draw(pre_G, with_labels=True, node_color='lightskyblue', edge_color='blue', node_size=80, alpha=0.8)
-    plt.savefig("{}pre_specific.png".format(picpath))
-    plt.close()
+
+    if os.path.exists('{}pre_specific.png'.format(picpath)):
+        os.remove('{}pre_specific.png'.format(picpath))
+    if pre_draw == True:
+        plt.figure(3, figsize=(12, 12))
+        nx.draw(pre_G, with_labels=True, node_color='lightskyblue', edge_color='blue', node_size=80, alpha=0.8)
+        plt.savefig("{}pre_specific.png".format(picpath))
+        plt.close()
+
+    return (cor_draw, pre_draw)
