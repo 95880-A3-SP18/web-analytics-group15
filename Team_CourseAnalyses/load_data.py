@@ -1,10 +1,12 @@
 import csv
 import django
 from django.conf import settings
+
 settings.configure()
 django.setup()
 
 import courses.models
+
 
 def load_data(csv_path):
     # load data
@@ -26,6 +28,7 @@ def load_data(csv_path):
                 department=row[12],
                 description=row[13]
             )
+
 
 if __name__ == "__main__":
     load_data('../parser/all_spring_courses.csv')
