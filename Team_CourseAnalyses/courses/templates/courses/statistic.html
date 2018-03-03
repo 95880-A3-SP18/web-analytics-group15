@@ -1,103 +1,79 @@
 {% extends 'courses/base.html' %}
 
-
 {% block body %}
     <h5 class="mt-4 ml-5">Statistic Analysis of All Courses >></h5>
-    <div class="courseDiv w-75 align-self-center">
-        <div class="collapse show" id="Div_dep_all">
-            <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
-               href="#collapse_dep_all" data-toggle="collapse" aria-expanded="false"
-               aria-controls="collapse_dep_all">
-                <span>
-                    <i class="fa fa-bookmark"></i> &nbsp;
-                    Department
-                </span>
-            </a>
-            <div class="collapse" id="collapse_dep_all">
-                <div class="card card-body">
-                    This graph shows the relationship between the courses count and each department.
-                    <img src="/static/courses/images/department_all.png" width="750" height="650"><br />
-                </div>
-            </div>
+    <div class="w-75 text-center card" id="allGraph">
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                    <a class="nav-link" href="#departmentGraph" data-toggle="collapse" aria-expanded="false"
+                       aria-controls="departmentGraph">Department</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#buildingGraph" data-toggle="collapse" aria-expanded="false"
+                       aria-controls="buildingGraph">Building</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#miniGraph" data-toggle="collapse" aria-expanded="false"
+                       aria-controls="miniGraph">Mini Course or Not</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#preGraph" data-toggle="collapse" aria-expanded="false"
+                       aria-controls="preGraph">Prerequisites Relationship</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#coGraph" data-toggle="collapse" aria-expanded="false"
+                       aria-controls="coGraph">Corequisites Relationship</a>
+                </li>
+            </ul>
         </div>
-        <div class="collapse show" id="Div_bldg_all">
-            <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
-               href="#collapse_bldg_all" data-toggle="collapse" aria-expanded="false"
-               aria-controls="collapse_bldg_all">
-                <span>
-                    <i class="fa fa-bookmark"></i> &nbsp;
-                    Building
-                </span>
-            </a>
-            <div class="collapse" id="collapse_bldg_all">
-                <div class="card card-body">
-                    This graph shows the relationship between the courses count and each building.
-                    <img src="/static/courses/images/bldg_all.png" width="730" height="580"><br />
-                </div>
-            </div>
+        <div id="departmentGraph" class="card-body collapse show" data-parent="#allGraph">
+            <p class="card-text">
+                This graph shows the relationship between the courses count and each department.
+            </p>
+            <img src="/static/courses/images/department_all.png" width="700" height="580"><br/>
         </div>
-        <div class="collapse show" id="div_mini_all">
-            <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
-               href="#collapse_mini_all" data-toggle="collapse" aria-expanded="false"
-               aria-controls="collapse_mini_all">
-                <span>
-                    <i class="fa fa-bookmark"></i> &nbsp;
-                    Mini Course or Not
-                </span>
-            </a>
-            <div class="collapse" id="collapse_mini_all">
-                <div class="card card-body">
-                    This graph shows the proportion of the mini courses.
-                    <img src="/static/courses/images/mini_all.png" width="550" height="550"><br />
-                </div>
-            </div>
+        <div id="buildingGraph" class="card-body collapse" data-parent="#allGraph">
+            <p class="card-text">
+                This graph shows the relationship between the courses count and each building.
+            </p>
+            <img src="/static/courses/images/bldg_all.png" width="700" height="580"><br/>
         </div>
-        <div class="collapse show" id="div_pre_all">
-            <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
-               href="#collapse_pre_all" data-toggle="collapse" aria-expanded="false"
-               aria-controls="collapse_pre_all">
-                <span>
-                    <i class="fa fa-bookmark"></i> &nbsp;
-                    Prerequisites Relationship
-                </span>
-            </a>
-            <div class="collapse" id="collapse_pre_all">
-                <div class="card card-body">
-                    This graph shows the relationship between the courses and their prerequisites.
-                    The direction is: prerequisites -> courses which needed prerequistes
-                    <h5 style="color:#005757">Too hard to figure out what is going on? Try to search specific courses below!</h5>
-                    <img src="/static/courses/images/pre_all.png" width="800" height="800"><br />
-                </div>
-            </div>
+        <div id="miniGraph" class="card-body collapse" data-parent="#allGraph">
+            <p class="card-text">
+                This graph shows the proportion of the mini courses.
+            </p>
+            <img src="/static/courses/images/mini_all.png" width="550" height="550"><br/>
         </div>
-        <div class="collapse show" id="div_cor_all">
-            <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
-               href="#collapse_cor_all" data-toggle="collapse" aria-expanded="false"
-               aria-controls="collapse_cor_all">
-                <span>
-                    <i class="fa fa-bookmark"></i> &nbsp;
-                    Corequisites Relationship
-                </span>
-            </a>
-            <div class="collapse" id="collapse_cor_all">
-                <div class="card card-body">
-                    This graph shows the relationship between the courses and their corequisites.
-                    There's no direction for this graph.
-                    <h5 style="color:#005757">Too hard to figure out what is going on? Try to search specific courses below!</h5>
-                    <img src="/static/courses/images/cor_all.png" width="800" height="800"><br />
-                </div>
-            </div>
+        <div id="preGraph" class="card-body collapse" data-parent="#allGraph">
+            <p class="card-text">
+                This graph shows the relationship between the courses and their prerequisites.
+                The direction is: prerequisites -> courses which needed prerequistes
+            </p>
+            <h5 style="color:#005757">Too hard to figure out what is going on? Try to search specific courses
+                below!</h5>
+            <img src="/static/courses/images/pre_all.png" width="700" height="580"><br/>
+        </div>
+        <div id="coGraph" class="card-body collapse" data-parent="#allGraph">
+            <p class="card-text">
+                This graph shows the relationship between the courses and their corequisites.
+                There's no direction for this graph.
+            </p>
+            <h5 style="color:#005757">Too hard to figure out what is going on? Try to search specific courses
+                below!</h5>
+            <img src="/static/courses/images/cor_all.png" width="700" height="580"><br/>
         </div>
     </div>
 
     <h5 class="mt-4 ml-5">Statistic Analysis of Specific Courses >></h5>
-    <div class="courseDiv w-75 align-self-center">
-        <br />
+    <div class="w-75" id="courseGraph">
+        <br/>
         {% if error_message %}
             <h6 style="color:#ff7575">{{ error_message }}</h6>
         {% endif %}
-        <form method="get" action="{% url 'courses:statistic' %}">
-            <input class="form-control mr-sm-2 w-50" type="search" placeholder="please enter valid course id" aria-label="Search" name="search_pre">
+        <form class="form-inline mb-2" method="get" action="{% url 'courses:statistic' %}">
+            <input class="form-control mr-sm-2 w-50" type="search" placeholder="Please enter valid course id"
+                   aria-label="Search" name="search_pre">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
         {% if search_pre %}
@@ -108,17 +84,17 @@
                        aria-controls="collapse_cor_specific">
                         <span>
                             <i class="fa fa-bookmark"></i> &nbsp;
-                            {{search_pre}}: Corequisites Relationship
+                            {{ search_pre }}: Corequisites Relationship
                         </span>
                     </a>
                     <div class="collapse" id="collapse_cor_specific">
                         <div class="card card-body">
-                            <img src="/static/courses/images/cor_specific.png" width="500" height="500"><br />
+                            <img src="/static/courses/images/cor_specific.png" width="400" height="400"><br/>
                         </div>
                     </div>
                 </div>
             {% else %}
-                <br /><h6 style="color:#005757">{{search_pre}}: The course(s) you searched has no Corequisites</h6>
+                <br/><h6 style="color:#005757">{{ search_pre }}: The course(s) you searched has no Corequisites</h6>
             {% endif %}
             {% if pre_draw %}
                 <div class="collapse show" id="div_pre_specific">
@@ -127,19 +103,19 @@
                        aria-controls="collapse_pre_specific">
                         <span>
                             <i class="fa fa-bookmark"></i> &nbsp;
-                            {{search_pre}}: Prerequisites Relationship
+                            {{ search_pre }}: Prerequisites Relationship
                         </span>
                     </a>
                     <div class="collapse" id="collapse_pre_specific">
                         <div class="card card-body">
-                            <img src="/static/courses/images/pre_specific.png" width="600" height="600"><br />
+                            <img src="/static/courses/images/pre_specific.png" width="400" height="400"><br/>
                         </div>
                     </div>
                 </div>
             {% else %}
-                <br /><h6 style="color:#005757">{{search_pre}}: The course(s) you searched has no Prerequisites</h6>
+                <br/><h6 style="color:#005757">{{ search_pre }}: The course(s) you searched has no Prerequisites</h6>
             {% endif %}
         {% endif %}
-        <br /><br />
+        <br/><br/>
     </div>
 {% endblock %}
