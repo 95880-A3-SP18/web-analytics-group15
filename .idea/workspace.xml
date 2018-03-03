@@ -2,10 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b720216-5b61-46c1-8bdf-f90743f74f17" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Team_CourseAnalyses/courses/static/courses/images/cor_specific.png" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/courses/static/courses/images/cor_specific.png" />
-      <change beforePath="$PROJECT_DIR$/Team_CourseAnalyses/courses/static/courses/images/pre_specific.png" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/courses/static/courses/images/pre_specific.png" />
-      <change beforePath="$PROJECT_DIR$/Team_CourseAnalyses/courses/templates/courses/statistic.html" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/courses/templates/courses/statistic.html" />
-      <change beforePath="$PROJECT_DIR$/Team_CourseAnalyses/courses/views.py" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/courses/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources/48718626-6dd9-4ef7-bc2e-a83c337e2d38/_metadata_/metadata.values.at" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources/48718626-6dd9-4ef7-bc2e-a83c337e2d38/storage.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources/4f8fde46-6b3d-45e8-986c-6ee544f3383d/_metadata_/metadata" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources/4f8fde46-6b3d-45e8-986c-6ee544f3383d/_metadata_/metadata.keystream" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources/4f8fde46-6b3d-45e8-986c-6ee544f3383d/_metadata_/metadata.keystream.len" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources/4f8fde46-6b3d-45e8-986c-6ee544f3383d/_metadata_/metadata.len" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources/4f8fde46-6b3d-45e8-986c-6ee544f3383d/_metadata_/metadata_i" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources/4f8fde46-6b3d-45e8-986c-6ee544f3383d/_metadata_/metadata_i.len" />
+      <change beforePath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources/2c436446-e250-4589-a7b5-42c61af7deb5.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources/383a1b15-f257-481d-b1c1-89df615d2cd4.xml" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources/4f8fde46-6b3d-45e8-986c-6ee544f3383d.xml" />
+      <change beforePath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources/48718626-6dd9-4ef7-bc2e-a83c337e2d38/_metadata_/metadata" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources/48718626-6dd9-4ef7-bc2e-a83c337e2d38/_metadata_/metadata" />
+      <change beforePath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources/48718626-6dd9-4ef7-bc2e-a83c337e2d38/_metadata_/metadata.keystream" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources/48718626-6dd9-4ef7-bc2e-a83c337e2d38/_metadata_/metadata.keystream" />
+      <change beforePath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources/48718626-6dd9-4ef7-bc2e-a83c337e2d38/_metadata_/metadata.keystream.len" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources/48718626-6dd9-4ef7-bc2e-a83c337e2d38/_metadata_/metadata.keystream.len" />
+      <change beforePath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources/48718626-6dd9-4ef7-bc2e-a83c337e2d38/_metadata_/metadata.len" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources/48718626-6dd9-4ef7-bc2e-a83c337e2d38/_metadata_/metadata.len" />
+      <change beforePath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources/48718626-6dd9-4ef7-bc2e-a83c337e2d38/_metadata_/metadata_i" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources/48718626-6dd9-4ef7-bc2e-a83c337e2d38/_metadata_/metadata_i" />
+      <change beforePath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources/48718626-6dd9-4ef7-bc2e-a83c337e2d38/_metadata_/metadata_i.len" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/dataSources/48718626-6dd9-4ef7-bc2e-a83c337e2d38/_metadata_/metadata_i.len" />
+      <change beforePath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Team_CourseAnalyses/courses/static/courses/images/cor_specific.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Team_CourseAnalyses/courses/static/courses/images/pre_specific.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Team_CourseAnalyses/courses/templates/courses/index.html" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/courses/templates/courses/index.html" />
+      <change beforePath="$PROJECT_DIR$/Team_CourseAnalyses/db.sqlite3" afterPath="$PROJECT_DIR$/Team_CourseAnalyses/db.sqlite3" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/Team_CourseAnalyses/courses/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="111" column="91" lean-forward="true" selection-start-line="111" selection-start-column="91" selection-end-line="111" selection-end-column="100" />
+              <caret line="111" column="91" lean-forward="false" selection-start-line="111" selection-start-column="91" selection-end-line="111" selection-end-column="100" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -82,28 +101,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="savePictures.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="savePictures.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Team_CourseAnalyses/savePictures.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1560">
-              <caret line="104" column="1" lean-forward="false" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
+            <state relative-caret-position="450">
+              <caret line="30" column="15" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="statistic.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Team_CourseAnalyses/courses/templates/courses/statistic.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="139" column="90" lean-forward="false" selection-start-line="139" selection-start-column="90" selection-end-line="139" selection-end-column="90" />
-              <folding>
-                <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h6#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h6#1;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h6#2;n#div#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -435,16 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Team_CourseAnalyses/savePictures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="104" column="1" lean-forward="false" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Team_CourseAnalyses/courses/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -456,7 +450,7 @@
     <entry file="file://$PROJECT_DIR$/Team_CourseAnalyses/courses/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="111" column="91" lean-forward="true" selection-start-line="111" selection-start-column="91" selection-end-line="111" selection-end-column="100" />
+          <caret line="111" column="91" lean-forward="false" selection-start-line="111" selection-start-column="91" selection-end-line="111" selection-end-column="100" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -465,13 +459,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Team_CourseAnalyses/courses/templates/courses/statistic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="139" column="90" lean-forward="false" selection-start-line="139" selection-start-column="90" selection-end-line="139" selection-end-column="90" />
+        <state relative-caret-position="447">
+          <caret line="125" column="13" lean-forward="true" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h6#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h6#1;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h6#2;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Team_CourseAnalyses/courses/static/courses/images/department_all.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Team_CourseAnalyses/courses/static/courses/images/cor_specific.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Team_CourseAnalyses/courses/static/courses/images/pre_specific.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Team_CourseAnalyses/savePictures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="15" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
