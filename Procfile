@@ -1,1 +1,1 @@
-web: gunicorn todosite.wsgi --log-file -
+web: gunicorn Team_CourseAnalyses.wsgi --log-file -
